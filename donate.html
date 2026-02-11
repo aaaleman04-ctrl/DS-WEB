@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donaciones - Brigada Médico-Odontológica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+                    <path d="M15 5L20 15H10L15 5Z" fill="#22C3E0"/>
+                    <circle cx="15" cy="20" r="5" fill="#22C3E0"/>
+                </svg>
+                <span>Brigada Médico-Odontológica</span>
+            </div>
+            <nav>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#trabajo">Nuestro Trabajo</a>
+                <a href="#voluntarios">Voluntarios</a>
+                <a href="#contacto">Contacto</a>
+                <a href="donate.html" class="btn-donate-nav">Donar</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="badge">🏥 BRIGADA MÉDICA 2025</div>
+                <h1>Sana a un Niño, <br><span class="highlight">Dibuja una Sonrisa</span></h1>
+                <p>Tu generosidad trae medicina y cuidado que salvan vidas a comunidades remotas donde la atención médica es escasa. Únete a nosotros para marcar una diferencia tangible hoy.</p>
+                
+                <div class="trust-badges">
+                    <div class="badge-item">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M10 2L12 8L18 8L13 12L15 18L10 14L5 18L7 12L2 8H8L10 2Z" fill="#22C3E0"/>
+                        </svg>
+                        <span>Donación Segura</span>
+                    </div>
+                    <div class="badge-item">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <rect x="3" y="6" width="14" height="10" stroke="#22C3E0" stroke-width="2"/>
+                            <path d="M7 6V4C7 2.5 8.5 2 10 2C11.5 2 13 2.5 13 4V6" stroke="#22C3E0" stroke-width="2"/>
+                        </svg>
+                        <span>Deducible de Impuestos</span>
+                    </div>
+                    <div class="badge-item">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <circle cx="10" cy="10" r="8" stroke="#22C3E0" stroke-width="2"/>
+                            <path d="M6 10L9 13L14 7" stroke="#22C3E0" stroke-width="2"/>
+                        </svg>
+                        <span>Impacto Global</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Donation Form Card -->
+            <div class="donation-card">
+                <div class="card-header">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" fill="#22C3E0"/>
+                    </svg>
+                    <h3>Haz una Donación</h3>
+                </div>
+
+                <div class="donation-frequency">
+                    <button class="freq-btn active">Única</button>
+                    <button class="freq-btn">Mensual <span class="impact-tag">MAYOR IMPACTO</span></button>
+                </div>
+
+                <div class="amount-selection">
+                    <button class="amount-btn">$25</button>
+                    <button class="amount-btn active">$50</button>
+                    <button class="amount-btn">$100</button>
+                    <button class="amount-btn custom">$ Otro</button>
+                </div>
+
+                <p class="impact-text">$50 cubre antibióticos para 5 niños en áreas rurales.</p>
+
+                <form class="donation-form">
+                    <div class="form-group">
+                        <label>NOMBRE COMPLETO</label>
+                        <input type="text" placeholder="Juan Pérez" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>CORREO ELECTRÓNICO</label>
+                        <input type="email" placeholder="juan@ejemplo.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>DETALLES DE TARJETA</label>
+                        <div class="card-input">
+                            <svg width="20" height="16" viewBox="0 0 20 16" fill="none">
+                                <rect x="1" y="2" width="18" height="12" rx="2" stroke="#9CA3AF" stroke-width="1.5"/>
+                                <path d="M1 6H19" stroke="#9CA3AF" stroke-width="1.5"/>
+                            </svg>
+                            <input type="text" placeholder="Número de tarjeta" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>MM/YY</label>
+                            <input type="text" placeholder="12/25" required>
+                        </div>
+                        <div class="form-group">
+                            <label>CVC</label>
+                            <input type="text" placeholder="123" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        Donar $50 Ahora
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 10H15M15 10L10 5M15 10L10 15" stroke="white" stroke-width="2"/>
+                        </svg>
+                    </button>
+
+                    <p class="terms">Al donar, aceptas nuestros Términos de Servicio y Política de Privacidad.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Where Money Goes Section -->
+    <section class="money-allocation">
+        <div class="container">
+            <h2>A dónde va tu dinero</h2>
+            <p class="subtitle">Nos enorgullecemos de nuestra transparencia. Cada dólar que donas es maximizado para proporcionar atención directa a los pacientes que lo necesitan.</p>
+
+            <div class="allocation-grid">
+                <div class="allocation-card">
+                    <div class="icon-wrapper blue">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <path d="M20 8V20L28 24" stroke="#22C3E0" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M32 20C32 26.6274 26.6274 32 20 32C13.3726 32 8 26.6274 8 20" stroke="#22C3E0" stroke-width="3"/>
+                            <circle cx="20" cy="12" r="2" fill="#22C3E0"/>
+                        </svg>
+                    </div>
+                    <h3>Atención Médica Directa</h3>
+                    <div class="percentage">80%</div>
+                    <p>de los fondos van directamente a comprar medicinas, suministros quirúrgicos y equipo para nuestras brigadas.</p>
+                </div>
+
+                <div class="allocation-card">
+                    <div class="icon-wrapper green">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="14" r="6" stroke="#10B981" stroke-width="3"/>
+                            <path d="M28 28C28 23.5817 24.4183 20 20 20C15.5817 20 12 23.5817 12 28" stroke="#10B981" stroke-width="3"/>
+                            <path d="M14 32L16 28L18 32" stroke="#10B981" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Logística y Alcance</h3>
+                    <div class="percentage">15%</div>
+                    <p>asegura que nuestros voluntarios y suministros lleguen a las comunidades más aisladas de manera segura y eficiente.</p>
+                </div>
+
+                <div class="allocation-card">
+                    <div class="icon-wrapper purple">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <rect x="10" y="14" width="20" height="14" rx="2" stroke="#8B5CF6" stroke-width="3"/>
+                            <path d="M16 14V12C16 10 18 8 20 8C22 8 24 10 24 12V14" stroke="#8B5CF6" stroke-width="3"/>
+                            <circle cx="20" cy="24" r="2" fill="#8B5CF6"/>
+                        </svg>
+                    </div>
+                    <h3>Educación y Prevención</h3>
+                    <div class="percentage">5%</div>
+                    <p>apoya talleres de salud que empoderan a las familias para prevenir enfermedades antes de que comiencen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial">
+        <div class="container">
+            <div class="quote-icon">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                    <path d="M15 35C15 28 18 22 25 20C23 22 22 24 22 27C22 31 25 34 29 34C33 34 36 31 36 27C36 21 32 16 25 16C17 16 12 22 12 30C12 38 17 44 25 44V40C19 40 15 38 15 35Z" fill="#22C3E0" opacity="0.2"/>
+                    <path d="M35 35C35 28 38 22 45 20C43 22 42 24 42 27C42 31 45 34 49 34C53 34 56 31 56 27C56 21 52 16 45 16C37 16 32 22 32 30C32 38 37 44 45 44V40C39 40 35 38 35 35Z" fill="#22C3E0" opacity="0.2"/>
+                </svg>
+            </div>
+            <blockquote>
+                "Mi hija nunca había visto a un doctor antes de que llegara la Brigada Médico-Odontológica. Gracias a la medicina que proporcionaron, su infección se curó en días. No puedo agradecer lo suficiente a los donantes."
+            </blockquote>
+            <div class="testimonial-author">
+                <div class="author-avatar">M</div>
+                <div class="author-info">
+                    <div class="author-name">María González</div>
+                    <div class="author-title">Madre de la comunidad San Juan</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alternative Ways Section -->
+    <section class="alternative-ways">
+        <div class="container">
+            <h2>¿No puedes donar dinero ahora?</h2>
+            <p class="subtitle">Hay muchas otras formas de apoyar nuestra misión. Puedes ser voluntario, donar suministros médicos o ayudarnos a difundir la palabra en redes sociales.</p>
+            
+            <div class="ways-buttons">
+                <a href="#voluntario" class="btn-secondary">Ser Voluntario</a>
+                <a href="#suministros" class="btn-secondary-outline">Donar Suministros →</a>
+            </div>
+
+            <div class="handshake-icon">
+                <svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+                    <path d="M30 50C30 50 35 45 40 45C45 45 50 50 50 50C50 50 55 45 60 45C65 45 70 50 70 50" stroke="#22C3E0" stroke-width="4" opacity="0.3"/>
+                    <circle cx="35" cy="35" r="8" stroke="#22C3E0" stroke-width="3" opacity="0.3"/>
+                    <circle cx="65" cy="35" r="8" stroke="#22C3E0" stroke-width="3" opacity="0.3"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+                        <path d="M15 5L20 15H10L15 5Z" fill="#22C3E0"/>
+                        <circle cx="15" cy="20" r="5" fill="#22C3E0"/>
+                    </svg>
+                    <span>Brigada Médico-Odontológica</span>
+                </div>
+                <p>Llevando salud y esperanza a comunidades en áreas rurales desde 2021. Organización sin fines de lucro.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Organización</h4>
+                <ul>
+                    <li><a href="#nosotros">Sobre Nosotros</a></li>
+                    <li><a href="#impacto">Nuestro Impacto</a></li>
+                    <li><a href="#finanzas">Reportes Financieros</a></li>
+                    <li><a href="#carreras">Carreras</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Involúcrate</h4>
+                <ul>
+                    <li><a href="#donar">Donar</a></li>
+                    <li><a href="#voluntario">Ser Voluntario</a></li>
+                    <li><a href="#alianzas">Alianzas</a></li>
+                    <li><a href="#fundraising">Recaudación de Fondos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <ul>
+                    <li>📍 San Pedro Sula, Honduras</li>
+                    <li>📧 info@brigadamedica.org</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2025 Brigada Médico-Odontológica. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#privacidad">Política de Privacidad</a>
+                    <a href="#terminos">Términos de Servicio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
