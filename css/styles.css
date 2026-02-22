@@ -1331,7 +1331,7 @@ p {
   border: 2px solid rgba(117, 117, 117, 0.2);
 }
 
-.campo-full textarea {
+.campo-full textarea{
   height: 20rem;
   padding: 2rem;
   border: 2px solid rgba(117, 117, 117, 0.2);
